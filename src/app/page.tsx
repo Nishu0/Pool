@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <TabProvider>
       <main className="min-h-screen bg-black text-white">
-        <CheckFootprint />
+        {/* <CheckFootprint /> */}
         <TabContainer />
         <NavigationBar />
       </main>
