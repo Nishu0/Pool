@@ -6,10 +6,10 @@ import { Icons } from "../icons";
 const HomePage = () => {
   return (
     <div
-      className={`home-tab-con transition-all duration-300 flex flex-col items-center justify-center w-full bg-black text-gray-300 font-[SF Pro]`}
+      className={`home-tab-con transition-all duration-300 flex flex-col items-center justify-center w-full bg-black text-white font-[SF Pro] gap-2`}
     >
       {/* Main heading */}
-      <h1 className="text-xl font-semibold text-center gap-2">
+      <h1 className="font-semibold text-center gap-2 font-[SF Pro] text-3xl font-bold">
         Welcome to Pool Bets!
         <br />
         Where You Bet,
